@@ -23,7 +23,6 @@ namespace GetVMStatus
             var vmName = args[0];
             Console.WriteLine("Getting status for VM: " + vmName);
             Console.WriteLine("Status: " + StatusChecker.GetVmStatus(vmName));
-            return;
         }
     }
 }
